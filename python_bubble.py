@@ -35,8 +35,3 @@ if __name__ == '__main__':
 			count += 1
 
 		print(loop)
-	
-	while True:
-		for i in range(len(unsorted_list)):
-			if (unsorted_list[i] > unsorted_list[i + 1]):
-				unsorted_list[i], unsorted_list[i + 1] = unsorted_list[i + 1], unsorted_list[i]
