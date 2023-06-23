@@ -11,16 +11,9 @@ void bubble_sort(int *array, size_t size)
 	int count = 0;
 	int swap = 0;
 
-	if (size == 2)
+	if (size == 2 || array == NULL)
 	{
-		if (array[0] > array[1])
-		{
-			/* temp = array[0]; */
-			/* array[0] = array[1]; */
-			/* array[1] = temp; */
-			/* print_array(array, size); */
-			return;
-		}
+		return;
 	}
 	else
 	{
