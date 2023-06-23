@@ -17,7 +17,7 @@ void bubble_sort(int *array, size_t size)
 	}
 	else
 	{
-		for (i = 0; i < size; i++)
+		for (i = 0; i < size - 1; i++)
 		/* Iterate through the entire list*/
 		{
 			for (j = 1; j < (size - count); j++)
