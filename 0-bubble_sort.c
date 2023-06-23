@@ -15,10 +15,11 @@ void bubble_sort(int *array, size_t size)
 	{
 		if (array[0] > array[1])
 		{
-			temp = array[0];
-			array[0] = array[1];
-			array[1] = temp;
-			print_array(array, size);
+			/* temp = array[0]; */
+			/* array[0] = array[1]; */
+			/* array[1] = temp; */
+			/* print_array(array, size); */
+			return;
 		}
 	}
 	else
@@ -44,6 +45,5 @@ void bubble_sort(int *array, size_t size)
 				return;
 			}
 		}
-		printf("\t\nNo. of loops :%d\n", loop);
-		}
+	}
 }
